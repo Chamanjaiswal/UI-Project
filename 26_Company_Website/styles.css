@@ -1,0 +1,89 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+/* -------------- Main Header ------------- */
+header{
+    background-image: url("img/background2.jpg");
+    padding: 12px;
+    color: white;
+}
+
+/* -------------- Main Navbar ------------- */
+nav{
+    background-color: black;
+    padding: 5px;
+    box-shadow: 0 0 10px black;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 25px;
+    display: inline-block;
+    border-radius: 5px;
+}
+nav a:hover{
+    background-color: #a43835;
+}
+nav a.active{
+    background-color: darkred;
+}
+
+/* --------------------- Sidebar ----------------- */
+aside{
+    background-image: url("img/background2.jpg");
+    float: left;
+    width: 250px;
+    box-shadow: 0 0 10px black;
+    text-align: center;
+    padding: 10px;
+    /* ----- Special ------ */
+    position: sticky;
+    top: 0;
+    height: 800px;
+}
+aside a{
+    display: block;
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 14px 25px;
+    border-radius: 5px;
+}
+aside a:hover{
+    background-color: rgba(0,0,0,0.5);
+    box-shadow: 0 0 5px white;
+}
+
+/* ------------------ Main Content Section ---------------- */
+section{
+    margin-left: 280px;
+    padding: 20px;
+}
+
+article h2{
+    padding-top: 20px;
+    color: darkred;
+    font-size: 35px;
+}
+article p{
+    font-size: 20px;
+    color: gray;
+}
+
+/* ----------------- Main Footer ---------------- */
+footer{
+    margin-left: 260px;
+    background-image: url("img/background2.jpg");
+    padding: 12px;
+    text-align: center;
+    color: white;
+}
+footer a{
+    color: orange;
+}
